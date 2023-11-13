@@ -14,8 +14,10 @@ public class Cuenta_Numeros_1_10 {
 
         int contador = 10;
 
-        // Bucle while que se ejecutara mientras el valor de "contador" sea igual o
-        // mayor a 1.
+        /*
+         * Bucle while que se ejecutará mientras el valor de "contador" sea igual o
+         * mayor a 1.
+         */
 
         while (contador >= 1) {
 
@@ -24,7 +26,7 @@ public class Cuenta_Numeros_1_10 {
             System.out.println(contador);
 
             // A cada vuelta del bucle le voy restando 1 al valor de la variable, para
-            // mostrar la centa regresiva:
+            // mostrar la cuenta regresiva:
 
             contador--;
 
