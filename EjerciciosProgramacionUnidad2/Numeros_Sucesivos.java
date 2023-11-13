@@ -9,10 +9,17 @@ public class Numeros_Sucesivos {
          * número.
          */
 
+        /*
+         * Declaro una variable en la que almacenare el numero introducido para usarlo
+         * mas adelante.
+         */
+
         int valorIntroducido;
 
-        // Creo un objeto de la clase Scanner para leer el numero introducido por el
-        // Usuario.
+        /*
+         * Creo un objeto de la clase Scanner para leer el numero introducido por el
+         * Usuario.
+         */
 
         Scanner scn = new Scanner(System.in);
 
@@ -39,7 +46,7 @@ public class Numeros_Sucesivos {
             if (valorIntroducido > 0) {
 
                 /*
-                 * Inicio un bucle for que sumara el valor de i hasta que i al numero
+                 * Inicio un bucle for que sumara el valor de i al numero
                  * introducido mientras i sea igual o inferior a 20 . Consiguiendo asi la
                  * sucesión de números.
                  */
@@ -57,10 +64,13 @@ public class Numeros_Sucesivos {
                  * continuación vuelve a iniciar el bucle
                  */
 
-                System.out.println("El numero es negativo por lo tanto no es valido.");
+                System.out.println("El numero es negativo, por lo tanto no es valido.");
 
         } while (valorIntroducido < 0);
 
+        // Cierro el objeto scn.
+
+        scn.close();
     }
 
 }
