@@ -61,7 +61,7 @@ public class Numeros_Sucesivos {
 
                 /*
                  * Si el usuario introduce un numero negativo, le dice que no es valido y a
-                 * continuación vuelve a iniciar el bucle
+                 * continuación vuelve a iniciar el bucle.
                  */
 
                 System.out.println("El numero es negativo, por lo tanto no es valido.");
