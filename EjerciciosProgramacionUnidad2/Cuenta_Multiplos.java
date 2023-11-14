@@ -69,7 +69,7 @@ public class Cuenta_Multiplos {
         System.out.println(
                 "En total hay: " + (contadorMultiplo3 + contadorAmbos - 1) + " números que son múltiplo de 3.");
 
-        System.out.println("Y de todos estos : " + (contadorAmbos - 1) + " son números de ambos.");
+        System.out.println("Y de todos estos : " + (contadorAmbos - 1) + ", son números de ambos.");
 
     }
 }
